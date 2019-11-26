@@ -52,17 +52,17 @@
                                                                 <item name="includingTaxMessage" xsi:type="string" translate="true">Incl. Tax</item>
                                                             </item>
                                                         </item>
+                                                        <item name="tax" xsi:type="array">
+                                                            <item name="component" xsi:type="string">Magento_Tax/js/view/checkout/summary/tax</item>
+                                                            <item name="config" xsi:type="array">
+                                                                <item name="title" xsi:type="string" translate="true">Tax</item>
+                                                            </item>
+                                                        </item>
                                                         <item name="before_grandtotal" xsi:type="array">
                                                             <item name="component" xsi:type="string">uiComponent</item>
                                                             <item name="sortOrder" xsi:type="string">30</item>
                                                             <item name="children" xsi:type="array">
                                                                 <!-- merge your components here -->
-                                                            </item>
-                                                        </item>
-                                                        <item name="tax" xsi:type="array">
-                                                            <item name="component" xsi:type="string">Magento_Tax/js/view/checkout/summary/tax</item>
-                                                            <item name="config" xsi:type="array">
-                                                                <item name="title" xsi:type="string" translate="true">Tax</item>
                                                             </item>
                                                         </item>
                                                         <item name="grand-total" xsi:type="array">
